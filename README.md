@@ -24,8 +24,8 @@
 
 ## 📢 News
 
-* **[2026.XX]** 🎉 LOVER is accepted by **EMNLP 2026**.
-* **[2026.XX]** 🚀 Code and model checkpoints are released.
+* **[2026.8.26]** 🎉 LOVER is accepted by **EMNLP 2026**.
+* **[2026.9.19]** 🚀 Code and model checkpoints are released.
 
 ---
 
@@ -37,33 +37,14 @@ We introduce **LOVER**, a **Long-to-Short Video Evidence Reinforced** framework 
 
 LOVER progressively improves temporal evidence reasoning through:
 
-* 🧠 **Long-to-Short Video Evidence Curriculum**
-* 🎯 **Intersection-over-Prediction (IoP) Reward**
+* 🧠 **Long-to-short Video Evidence Curriculum Learning**
+* 🎯 **GQA Rewards**
 * ⏱️ **Adaptive Timestamp Rendering**
 
 Given a long video and a question, LOVER jointly reasons about **what happens** and **when the supporting evidence occurs**, producing both an answer and its corresponding temporal evidence.
 
 ---
 
-## ✨ Key Contributions
-
-### 1. Long-to-Short Video Evidence Curriculum
-
-We propose a **long-to-short curriculum learning strategy** that progressively introduces temporal grounding examples with different evidence durations.
-
-The curriculum encourages the model to first learn coarse temporal reasoning and gradually improve its ability to identify short and fine-grained evidence intervals.
-
-### 2. Intersection-over-Prediction Reward
-
-We introduce an **IoP-based reward** to provide more effective supervision for temporal evidence localization.
-
-Compared with conventional IoU-based rewards, IoP is particularly suitable for cases where the ground-truth evidence interval is short and the predicted interval partially overlaps with the target evidence.
-
-### 3. Adaptive Timestamp Rendering
-
-We propose **Adaptive Timestamp Rendering**, which dynamically represents temporal information during video reasoning and improves the model's ability to distinguish fine-grained temporal boundaries.
-
----
 
 ## 🖼️ Method
 
