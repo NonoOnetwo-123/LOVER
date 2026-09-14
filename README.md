@@ -8,9 +8,11 @@
 
 <p>
   <a href="PAPER_LINK">📄 Paper</a> &nbsp;&nbsp; | &nbsp;&nbsp;
-  <a href="CODE_LINK">💻 Code</a> &nbsp;&nbsp; | &nbsp;&nbsp;
-  <a href="MODEL_LINK">🤗 Model</a>
+  <a href="https://github.com/NonoOnetwo-123/LOVER">💻 Code</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+  <a href="MODEL_LINK">🤗 LOVER-7B</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+  <a href="https://huggingface.co/datasets/Boshenxx/TimeR1-Dataset">🤗 Training Data</a>
 </p>
+
 
 <p>
   <img src="https://img.shields.io/badge/Conference-EMNLP%202026-blue" />
