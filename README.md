@@ -115,6 +115,17 @@ More detailed instructions will be provided in the corresponding directories.
 
 ---
 
+## 🙏 Acknowledgements
+
+We would like to thank the authors of **[Time-R1](https://github.com/xiaomi-research/time-r1)** for their excellent work on post-training large vision-language models for temporal video grounding.
+
+LOVER is built upon and inspired by the open-source **Time-R1** framework. We sincerely appreciate the authors for making their code and research publicly available, which provided a valuable foundation for our work.
+
+> **Time-R1: Post-Training Large Vision Language Model for Temporal Video Grounding**
+> *NeurIPS 2025*
+
+---
+
 # 📝 Citation
 
 If you find LOVER useful in your research, please consider citing:
