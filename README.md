@@ -75,47 +75,6 @@ pip install -r requirements.txt
 
 ---
 
-# 💻 Code
-
-The implementation of LOVER is organized as follows:
-
-```text
-LOVER/
-├── configs/
-├── scripts/
-├── lover/
-│   ├── models/
-│   ├── datasets/
-│   ├── rewards/
-│   ├── trainers/
-│   └── utils/
-├── tools/
-├── examples/
-├── requirements.txt
-└── README.md
-```
-
-### Inference
-
-```bash
-bash scripts/inference.sh
-```
-
-### Evaluation
-
-```bash
-bash scripts/evaluate.sh
-```
-
-### Training
-
-```bash
-bash scripts/train.sh
-```
-
-More detailed instructions will be provided in the corresponding directories.
-
----
 
 ## 🙏 Acknowledgements
 
