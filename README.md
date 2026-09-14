@@ -1,6 +1,6 @@
 <div align="center">
 
-# LOVER: Long-to-Short Video Evidence Reasoning for Grounded Question Answering
+# Long-to-Short Video Evidence Reasoning for Grounded Question Answering
 
 <p>
   <b>EMNLP 2026</b>
@@ -49,42 +49,11 @@ Given a long video and a question, LOVER jointly reasons about **what happens** 
 ## 🖼️ Method
 
 <p align="center">
-  <img src="assets/framework.png" width="95%">
+  <img src="assets/overreview.png" width="95%">
 </p>
 
 **Overview of LOVER.**
 LOVER combines long-to-short curriculum learning, IoP-based reinforcement learning, and adaptive timestamp rendering for grounded video question answering.
-
----
-
-## 📊 Results
-
-### ReXTime
-
-| Method    | Acc@GQA ↑ |
-| :-------- | --------: |
-| Baseline  |     38.04 |
-| Time-R1   |     42.94 |
-| **LOVER** | **43.06** |
-
-### NExT-GQA
-
-| Method    |   mIoP ↑ |   mIoU ↑ | IoP@0.5 ↑ | IoU@0.5 ↑ |    GQA ↑ |
-| :-------- | -------: | -------: | --------: | --------: | -------: |
-| Time-R1   |    26.06 |        – |         – |         – |        – |
-| **LOVER** | **42.7** | **33.5** |  **41.1** |  **29.7** | **32.7** |
-
-> Please refer to the paper for the complete experimental results and detailed comparisons.
-
----
-
-## 🎥 Qualitative Results
-
-<p align="center">
-  <img src="assets/qualitative.png" width="95%">
-</p>
-
-LOVER is able to identify the temporal evidence supporting the answer while performing video question answering.
 
 ---
 
@@ -143,36 +112,6 @@ bash scripts/train.sh
 ```
 
 More detailed instructions will be provided in the corresponding directories.
-
----
-
-# 🤗 Model
-
-We provide pretrained LOVER checkpoints for research and reproducibility.
-
-| Model     | Base Model | Download                      |
-| :-------- | :--------- | :---------------------------- |
-| **LOVER** | Qwen-VL    | 🤗 [Hugging Face](MODEL_LINK) |
-
-### Download
-
-```bash
-huggingface-cli download YOUR_USERNAME/LOVER
-```
-
-Please refer to the model repository for detailed inference instructions and model-specific requirements.
-
----
-
-# 📚 Datasets
-
-LOVER is evaluated on multiple video grounded question answering benchmarks, including:
-
-* **ReXTime**
-* **NExT-GQA**
-* **CG-Bench**
-
-Please download the datasets from their official sources and follow their respective licenses and usage policies.
 
 ---
 
