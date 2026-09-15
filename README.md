@@ -64,7 +64,7 @@ LOVER combines long-to-short curriculum learning, IoP-based reinforcement learni
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/LOVER.git
+git clone https://github.com/NonoOnetwo-123/LOVER.git
 cd LOVER
 
 conda create -n lover python=3.10 -y
