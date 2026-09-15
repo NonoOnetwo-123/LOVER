@@ -9,7 +9,7 @@
 <p>
   <a href="https://arxiv.org/abs/2609.15224">📄 Paper</a> &nbsp;&nbsp; | &nbsp;&nbsp;
   <a href="https://github.com/NonoOnetwo-123/LOVER">💻 Code</a> &nbsp;&nbsp; | &nbsp;&nbsp;
-  <a href="MODEL_LINK">🤗 LOVER-7B</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+  <a href="https://huggingface.co/Kaiyan017/LOVER-7B">🤗 LOVER-7B</a> &nbsp;&nbsp; | &nbsp;&nbsp;
   <a href="https://huggingface.co/datasets/Boshenxx/TimeR1-Dataset">🤗 Training Data</a>
 </p>
 
