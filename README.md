@@ -7,7 +7,7 @@
 </p>
 
 <p>
-  <a href="PAPER_LINK">📄 Paper</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+  <a href="https://arxiv.org/abs/2609.15224">📄 Paper</a> &nbsp;&nbsp; | &nbsp;&nbsp;
   <a href="https://github.com/NonoOnetwo-123/LOVER">💻 Code</a> &nbsp;&nbsp; | &nbsp;&nbsp;
   <a href="MODEL_LINK">🤗 LOVER-7B</a> &nbsp;&nbsp; | &nbsp;&nbsp;
   <a href="https://huggingface.co/datasets/Boshenxx/TimeR1-Dataset">🤗 Training Data</a>
@@ -78,9 +78,7 @@ pip install -r requirements.txt
 
 ## 🙏 Acknowledgements
 
-We would like to thank the authors of **[Time-R1](https://github.com/xiaomi-research/time-r1)** for their excellent work on post-training large vision-language models for temporal video grounding.
-
-LOVER is built upon and inspired by the open-source **Time-R1** framework. We sincerely appreciate the authors for making their code and research publicly available, which provided a valuable foundation for our work.
+LOVER is built upon and inspired by the open-source **[Time-R1](https://github.com/xiaomi-research/time-r1)** framework. We sincerely appreciate the authors for making their code and research publicly available, which provided a valuable foundation for our work.
 
 > **Time-R1: Post-Training Large Vision Language Model for Temporal Video Grounding**
 > *NeurIPS 2025*
