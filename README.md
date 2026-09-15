@@ -91,10 +91,10 @@ If you find LOVER useful in your research, please consider citing:
 
 ```bibtex
 @inproceedings{chen2026lover,
-  title     = {Long to Short Video Evidence Reasoning for Grounded Question Answering},
-  author    = {Chen, Kaiyan and Others},
-  booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
-  year      = {2026}
+  title={Long-to-Short Video Evidence Reasoning for Grounded Question Answering},
+  author={Chen, Kaiyan and Xiao, Junbin and Yang, Xun},
+  booktitle={Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+  year={2026}
 }
 ```
 
