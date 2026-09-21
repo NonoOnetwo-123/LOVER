@@ -90,12 +90,16 @@ LOVER is built upon and inspired by the open-source **[Time-R1](https://github.c
 If you find LOVER useful in your research, please consider citing:
 
 ```bibtex
-@inproceedings{chen2026lover,
-  title={Long-to-Short Video Evidence Reasoning for Grounded Question Answering},
-  author={Chen, Kaiyan and Xiao, Junbin and Yang, Xun},
-  booktitle={Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
-  year={2026}
+@misc{chen2026longtoshortvideoevidencereasoning,
+      title={Long-to-Short Video Evidence Reasoning for Grounded Question Answering}, 
+      author={Kaiyan Chen and Junbin Xiao and Xun Yang},
+      year={2026},
+      eprint={2609.15224},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2609.15224}, 
 }
+
 ```
 
 ---
